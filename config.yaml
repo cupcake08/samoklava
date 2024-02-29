@@ -400,7 +400,7 @@ pcbs:
         outline: pcb
     footprints:
       mx_hotswap:
-        what: mx
+        what: mx_new
         where: true
         params:
           keycaps: true
@@ -417,7 +417,7 @@ pcbs:
         adjust:
           shift: [0,-5]
       mcu:
-        what: nicenano
+        what: nice_nano
         where: matrix_inner_bottom
         params:
           show_silk_labels: false
